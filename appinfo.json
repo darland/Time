@@ -1,0 +1,40 @@
+{
+  "uuid": "05c70f29-a8a6-4b15-a2c2-2f93065b1c9d",
+  "shortName": "Time+",
+  "longName": "Time+",
+  "companyName": "ArtiTyu",
+  "versionCode": 1,
+  "versionLabel": "1.0.1",
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+     "media": [
+     {
+        "menuIcon": true,
+        "type": "png",
+        "name": "IMAGE_MENU_ICON",
+        "file": "images/png.png"
+      },
+	 {
+		"type": "png",
+		"name": "IMAGE_BLUETOOTH",
+		"file": "images/bluetooth.png"
+      },
+      {
+        "type": "font",
+        "name": "FONT_FUTURAB_21",
+        "file": "fonts/Alien_lines.ttf"
+      },
+      {
+        "characterRegex": "[:0-9]",
+        "type": "font",
+        "name": "FONT_FUTURAB_64",
+         "file": "fonts/Arista.ttf"
+      }
+    ]
+  }
+}
